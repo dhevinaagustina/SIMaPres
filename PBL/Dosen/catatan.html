@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Prestasi</title>
+    <link rel="stylesheet" type="text/css" href="InputPrestasi.css">
+    
+</head>
+<body>
+    <div class="sidebar">
+        <div class="user-profile">
+            <div class="user-avatar"></div>
+            <span class="username">Username</span>
+            <span class="collapse-arrow">≪</span>
+        </div>
+        
+        <a href="#" class="menu-item">
+            <svg class="menu-icon" viewBox="0 0 24 24">
+                <path d="M3 13h1v7c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7h1a1 1 0 0 0 .707-1.707l-9-9a.999.999 0 0 0-1.414 0l-9 9A1 1 0 0 0 3 13zm7 7v-5h4v5h-4zm2-15.586 6 6V15l.001 5H16v-5c0-1.103-.897-2-2-2h-4c-1.103 0-2 .897-2 2v5H6v-9.586l6-6z"/>
+            </svg>
+            Beranda
+        </a>
+
+        <a href="#" class="menu-item">
+            <svg class="menu-icon" viewBox="0 0 24 24">
+                <path d="M20 12a8 8 0 0 0-8-8v8l5.657 5.657A7.95 7.95 0 0 0 20 12z"/>
+                <path d="M12 4a8 8 0 0 0 0 16 8 8 0 0 0 0-16zm0 14a6 6 0 1 1 0-12 6 6 0 0 1 0 12z"/>
+            </svg>
+            Tambah Agenda Kompetisi
+        </a>
+
+        <a href="#" class="menu-item">
+            <svg class="menu-icon" viewBox="0 0 24 24">
+                <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"/>
+                <path d="M11 11h2v6h-2zm0-4h2v2h-2z"/>
+            </svg>
+            Agenda Kompetisi
+        </a>
+
+        <a href="#" class="menu-item">
+            <svg class="menu-icon" viewBox="0 0 24 24">
+                <path d="M19 3H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2zm0 16H5V5h14v14z"/>
+                <path d="m13.293 6.293-4 4-2.293-2.293-1.414 1.414L8.293 12l1.414 1.414L14 8.414l4.293 4.293 1.414-1.414L13.293 6.293z"/>
+            </svg>
+            Peringkat mahasiswa
+        </a>
+    </div>
+
+
+    <div class="main-content">
+        <div class="box1">
+            <h1 class="welcome-text">Data Kompetisi</h1>
+        </div>
+        
+    <div class="data">
+        <form class="pendataan">
+                <div class="form">
+                    <label for="prodi">Program Studi </label>
+                    <input type="text" id="prodi" name="prodi">
+                </div>
+
+                <div class="form">
+                    <label for="prodi">Jenis Kompetisi </label>
+                    <input type="text" id="jenis-kompetisi" name="jenis-kompetisi">
+                </div>
+                
+                <div class="form">
+                    <label for="Kompetisi">Tingkat Kompetisi </label>
+                    <input type="text" id="tingkat-kompetisi" name="tingkat-kompetisi">
+                </div>
+
+                <div class="form">
+                    <label for="Kompetisi">Judul Kompetisi </label>
+                    <input type="text" id="judul-kompetisi" name="judul-kompetisi">
+                </div>
+
+                <div class="form">
+                    <label for="Kompetisi">Judul Kompetisi (English) </label>
+                    <input type="text" id="judul-kompetisi" name="judul-kompetisi">
+                </div>
+
+                <div class="form">
+                    <label for="Kompetisi">Tempat Kompetisi </label>
+                    <input type="text" id="tempat-kompetisi" name="tempat-kompetisi">
+                </div>
+
+                <div class="form">
+                    <label for="Kompetisi">Tempat Kompetisi (English) </label>
+                    <input type="text" id="tempat-kompetisi" name="tempat-kompetisi">
+                </div>
+
+                <div class="form">
+                    <label for="Kompetisi">URL Kompetisi </label>
+                    <input type="text" id="url-kompetisi" name="url-kompetisi">
+                </div>
+
+                <div class="form">
+                    <label for="Kompetisi">Tanggal Mulai </label>
+                    <input type="text" id="tanggal" name="tanggal">
+                </div>
+
+                <div class="form">
+                    <label for="Kompetisi">Tanggal Akhir </label>
+                    <input type="text" id="tanggal" name="tanggal">
+                </div>
+
+                <div class="form">
+                    <label for="Kompetisi">Jumlah PT (Berpartisipasi)</label>
+                    <input type="text" id="tanggal" name="tanggal">
+                </div>
+
+                <div class="form">
+                    <label for="Kompetisi">Jumlah Peserta </label>
+                    <input type="text" id="Peserta" name="peserta">
+                </div>
+
+                <div class="form">
+                    <label for="Kompetisi">No Surat Tugas </label>
+                    <input type="text" id="surat" name="surat">
+                </div>
+
+                <div class="form">
+                    <label for="Kompetisi">Tanggal Surat Tugas </label>
+                    <input type="text" id="Tanggal" name="Tanggal">
+                </div>
+            </form>
+            <div class="data">
+                <!-- Form untuk file -->
+                <div class="file-section">
+                    
+                    <div class="file-item">
+                        <label>File Surat Tugas</label>
+                        <div class="file-upload">
+                            <img src="Asset/img icon.jpg" alt="Placeholder">
+                            <p>Ukuran (Max: 5000KB)<br>Ekstensi (jpg, jpeg, png, pdf, docx)</p>
+                            <input type="file" id="file-upload" class="custom-file-input" accept=".jpg, .jpeg, .png, .pdf, .docx">
+                        </div>
+                    </div>
+                    <div class="file-item">
+                        <label>Foto Kegiatan</label>
+                        <div class="file-upload">
+                            <img src="Asset/img icon.jpg" alt="Placeholder">
+                            <p>Ukuran (Max: 5000KB)<br>Ekstensi (jpg, jpeg, png, pdf, docx)</p>
+                            <input type="file" id="file-upload" class="custom-file-input" accept=".jpg, .jpeg, .png, .pdf, .docx">
+                        </div>
+                    </div>
+                    <div class="file-item">
+                        <label>File Sertifikat</label>
+                        <div class="file-upload">
+                            <img src="Asset/img icon.jpg" alt="Placeholder">
+                            <p>Ukuran (Max: 5000KB)<br>Ekstensi (jpg, jpeg, png, pdf, docx)</p>
+                            <input type="file" id="file-upload" class="custom-file-input" accept=".jpg, .jpeg, .png, .pdf, .docx">
+                        </div>
+                    </div>
+                    <div class="file-item">
+                        <label>File Poster</label>
+                        <div class="file-upload">
+                            <img src="Asset/img icon.jpg" alt="Placeholder">
+                            <p>Ukuran (Max: 5000KB)<br>Ekstensi (jpg, jpeg, png, pdf, docx)</p>
+                            <input type="file" id="file-upload" class="custom-file-input" accept=".jpg, .jpeg, .png, .pdf, .docx">
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Data Mahasiswa -->
+                <div class="table-section">
+                    <h2>Data Mahasiswa</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>NO</th>
+                                <th>Mahasiswa</th>
+                                <th>Peran Mahasiswa</th>
+                                <th>Hapus</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><select><option>Pilih Mahasiswa</option></select></td>
+                                <td><select><option>Pilih Peran</option></select></td>
+                                <td><button>❌</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button>+ Tambah</button>
+                </div>
+            
+                <!-- Data Pembimbing -->
+                <div class="table-section">
+                    <h2> Data Pembimbing</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>NO</th>
+                                <th>Pembimbing</th>
+                                <th>Peran Pembimbing</th>
+                                <th>Hapus</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><select><option>Pilih Pembimbing</option></select></td>
+                                <td><select><option>Pilih Peran</option></select></td>
+                                <td><button>❌</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button>+ Tambah</button>
+                </div>
+            </div>            
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    background-image: url(Asset/Background\ landscape.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 289px;
+    background: rgba(30, 58, 138, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 34px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 24px;
+}
+
+.user-avatar {
+    width: 48px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+.username {
+    color: white;
+    font-size: 1.1rem;
+    flex-grow: 1;
+}
+
+.collapse-arrow {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.menu-item {
+    height: 51px;
+    display: flex;
+    align-items: center;
+    gap: 20px;  /* Ruang antara ikon dan teks */
+    padding: 15px 20px;
+    margin: 10px 0;
+    background: white;
+    border-radius: 8px;
+    color: #2D2669;
+    text-decoration: none;
+    font-weight: auto;
+    transition: all 0.3s ease;
+    justify-content: flex-start; /* Pastikan konten berada di kiri */
+    width: 240px;
+}
+
+.menu-icon {
+    width: 20px; /* Ukuran ikon */
+    height: 20px; /* Ukuran ikon */
+    fill: #2D2669; /* Warna ikon */
+    flex-shrink: 0; /* Menghindari ikon mengecil ketika ukuran kontainer berubah */
+    margin-right: 10px; /* Memberikan jarak antara ikon dan teks */
+}
+
+.menu-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.main-content {
+    flex: 1;
+    padding: 40px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 40px;
+    margin-left: 50px;
+}
+
+.box1{
+    width:1300px;
+    height: 53px;
+    background-color: #2D2669;
+    border-radius: 5px;
+}
+
+.data {
+    display: flex; /* Mengaktifkan flexbox */
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+    align-items: center; /* Menempatkan elemen di tengah horizontal */
+    width: 1300px; /* Lebar tetap sesuai kebutuhan */
+    height: 1774px; /* Tinggi tetap */
+    border-radius: 5px;
+    background-color: white; /* Warna latar belakang */
+}
+
+.welcome-text {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    align-items: center; /* Menyelaraskan label dan input secara vertikal */
+    margin-bottom: 20px; /* Jarak antar setiap pasangan label dan input */
+    gap: 20px; /* Jarak antara label dan input */
+}
+
+label {
+    width: 260px; /* Memberikan lebar tetap untuk label agar rata */
+    text-align: left; /* Menyelaraskan teks label ke kanan */
+    color: #2D2669;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+input {
+    margin-top: 10px;
+    background-color: #DDDDDD;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 660px; /* Atur lebar input sesuai kebutuhan */
+    box-sizing: border-box;
+}
+
+.file-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.file-item {
+    text-align: center;
+    width: 23%; /* Menyesuaikan jumlah kolom */
+}
+
+.file-upload img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+}
+
+.file-upload p {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.file-upload button {
+    background-color: #2D2669;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.file-upload button:hover {
+    background-color: #3d3578;
+}
+
+.table-section {
+    margin-top: 20px;
+    width: 1000px;
+}
+
+.table-section h2 {
+    background-color: #2D2669;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f5f5f5;
+}
+
+table select {
+    width: 90%;
+    padding: 5px;
+}
+
+/* input berkas */
+
+.file-item {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  .file-item label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: #333;
+  }
+
+  /* Container untuk upload file */
+  .file-upload {
+    border: 2px dashed #2D2669; /* Garis putus-putus */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    position: relative;
+  }
+
+  /* Gambar placeholder di dalam container */
+  .file-upload img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+
+  .file-upload p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+  }
+
+  /* Tombol kustom untuk file input */
+  .file-upload .custom-file-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2D2669;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+  }
+
+  .file-upload .custom-file-button:hover {
+    background-color: #3e3198; /* Efek hover */
+    transform: translateY(-2px); /* Efek klik */
+  }
+
+  .file-upload .custom-file-button:active {
+    background-color: #251d52; /* Efek klik: warna lebih gelap */
+    transform: translateY(0); /* Kembali ke posisi semula */
+  }
+
+  .file-upload .custom-file-button::before {
+    content: '📁'; /* Ikon folder */
+    margin-right: 8px;
+  }
+  
+  /* Tampilkan nama file setelah dipilih */
+  .file-name {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    font-style: italic;
+  }
+
+  #file-upload {
+    background-color: #251d52;
+    width: 120px;
+  }
