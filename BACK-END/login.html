@@ -5,21 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistem Informasi Pencatatan Prestasi Mahasiswa</title>
     <script>
-        // Fungsi untuk mengarahkan ke halaman berikutnya
-        function handleSignIn(event) {
-            event.preventDefault(); // Mencegah form refresh halaman
-            const username = document.getElementById("username").value;
-            const password = document.getElementById("password").value;
-    
-            // Contoh validasi sederhana
-            if (username === "admin" && password === "1234") {
-                window.location.href = "Beranda.html"; // Ganti dengan halaman tujuan Anda
-            } else {
-                alert("Invalid username or password!");
-            }
-        }
-    
-        // Fungsi untuk menampilkan atau menyembunyikan password
         function togglePassword() {
             const passwordInput = document.getElementById("password");
             if (passwordInput.type === "password") {
@@ -216,7 +201,7 @@
             </div>
             
             <div class="sign-in-container">
-                <form onsubmit="return handleSignIn(event)">
+                <form action="login.php" method="POST"> <!-- Sesuaikan action dengan path login.php -->
                     <div class="form-group">
                         <label for="username">Username</label>
                         <input type="text" id="username" name="username" required>
